@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "gameId": "game1-match-level1",
+  "levelId": 1,
+  "totalLevels": 3,
+  "title": "天氣現象對對碰",
+  "starsPerMatch": 2,
+  "enterVoice": "看看這些圖卡，找出有關係的兩張，把它們配成一對！",
+  "mismatchVoice": "這兩張好像沒有關係喔，再試試看！",
+  "completeVoice": "太棒了！你完成了天氣現象對對碰的全部挑戰！",
+  "pairs": [
+    {
+      "id": "sunny",
+      "voice": "答對了！晴天的時候天空好藍，影子也很明顯！",
+      "a": { "label": "晴天", "image": "assets/game1/cards/sunny-a.png" },
+      "b": { "label": "天空好藍，影子很明顯", "image": "assets/game1/cards/sunny-b.png" }
+    },
+    {
+      "id": "cloudy",
+      "voice": "答對了！陰天的時候，天空會有好多烏雲！",
+      "a": { "label": "陰天", "image": "assets/game1/cards/cloudy-a.png" },
+      "b": { "label": "天空好多烏雲", "image": "assets/game1/cards/cloudy-b.png" }
+    },
+    {
+      "id": "rain",
+      "voice": "答對了！雨天雨滴持續落下，地面濕滑，會出現水灘！",
+      "a": { "label": "雨天", "image": "assets/game1/cards/rain-a.png" },
+      "b": { "label": "雨滴持續落下，地面濕滑出現水灘", "image": "assets/game1/cards/rain-b.png" }
+    },
+    {
+      "id": "fog",
+      "voice": "答對了！濃霧會讓前方的景色看不清楚！",
+      "a": { "label": "濃霧", "image": "assets/game1/cards/fog-a.png" },
+      "b": { "label": "前方的景色看不清楚", "image": "assets/game1/cards/fog-b.png" }
+    },
+    {
+      "id": "thunder",
+      "voice": "答對了！打雷的時候會先看到閃電，再聽到轟隆隆的雷聲！",
+      "a": { "label": "雷雨", "image": "assets/game1/cards/thunder-a.png" },
+      "b": { "label": "天空閃過閃電，轟隆隆的打雷", "image": "assets/game1/cards/thunder-b.png" }
+    },
+    {
+      "id": "typhoon",
+      "voice": "答對了！颱風來的時候風雨都很大，要待在家裡最安全！",
+      "a": { "label": "颱風", "image": "assets/game1/cards/typhoon-a.png" },
+      "b": { "label": "狂風暴雨，樹被吹得東倒西歪", "image": "assets/game1/cards/typhoon-b.png" }
+    },
+    {
+      "id": "wind",
+      "voice": "答對了！風很大的時候，帽子會被吹走，旗子也會啪啪響！",
+      "a": { "label": "強風", "image": "assets/game1/cards/wind-a.png" },
+      "b": { "label": "風好大，帽子要飛走", "image": "assets/game1/cards/wind-b.png" }
+    },
+    {
+      "id": "hot",
+      "voice": "答對了！天氣很熱的時候要戴帽子、多喝水，不要中暑喔！",
+      "a": { "label": "高溫", "image": "assets/game1/cards/hot-a.png" },
+      "b": { "label": "太陽好大，流好多汗，要多喝水", "image": "assets/game1/cards/hot-b.png" }
+    },
+    {
+      "id": "cold",
+      "voice": "答對了！寒流來的時候要穿外套、戴帽子，才不會著涼！",
+      "a": { "label": "低溫", "image": "assets/game1/cards/cold-a.png" },
+      "b": { "label": "冷冷的，要注意保暖", "image": "assets/game1/cards/cold-b.png" }
+    },
+    {
+      "id": "rainbow",
+      "voice": "答對了！雨停之後陽光出來，天空就會出現七彩的彩虹！",
+      "a": { "label": "彩虹", "image": "assets/game1/cards/rainbow-a.png" },
+      "b": { "label": "雨停放晴，天空出現七彩的橋", "image": "assets/game1/cards/rainbow-b.png" }
+    },
+    {
+      "id": "drizzle",
+      "voice": "答對了！毛毛雨的雨滴很小，慢慢也會把地面淋濕喔！",
+      "a": { "label": "毛毛雨", "image": "assets/game1/cards/drizzle-a.png" },
+      "b": { "label": "細細小小的雨絲", "image": "assets/game1/cards/drizzle-b.png" }
+    },
+    {
+      "id": "damp",
+      "voice": "答對了！金門春天常常反潮，地板濕濕的，走路要小心！",
+      "a": { "label": "反潮", "image": "assets/game1/cards/damp-a.png" },
+      "b": { "label": "牆壁、地板溼溼的，走路要小心", "image": "assets/game1/cards/damp-b.png" }
+    }
+  ]
+}

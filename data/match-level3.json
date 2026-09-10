@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "gameId": "game1-match-level3",
+  "levelId": 3,
+  "totalLevels": 3,
+  "title": "天氣安全對對碰",
+  "starsPerQuestion": 5,
+  "enterVoice": "遇到這種天氣，應該怎麼做呢？選出最安全的做法吧！",
+  "mismatchVoice": "好像不太安全喔，再想想看！",
+  "completeVoice": "太棒了！你收集到十五顆氣象星星，成為天氣安全小達人！",
+  "questions": [
+    {
+      "id": "fog",
+      "prompt": "今天霧濛濛的，看不清楚前面了！",
+      "image": "assets/game1/safety/q1-scene.png",
+      "answerId": "fog-slow",
+      "feedback": "😊 答對了！減速慢行、開啟霧燈最安全！ ✨",
+      "voice": "答對了！起霧的時候看不清楚，要減速慢行、開啟霧燈，注意安全！",
+      "textInImage": true,
+      "options": [
+        {
+          "id": "fog-slow",
+          "label": "行車減速慢行並開啟霧燈",
+          "image": "assets/game1/safety/q1-opt1.png",
+          "textInImage": true
+        },
+        {
+          "id": "fog-road",
+          "label": "跑到馬路中間觀察濃霧",
+          "image": "assets/game1/safety/q1-opt2.png",
+          "voice": "跑到馬路中間太危險了！會被車子撞到喔！再想想看！",
+          "textInImage": true
+        },
+        {
+          "id": "fog-follow",
+          "label": "跟緊前方車輛",
+          "image": "assets/game1/safety/q1-opt3.png",
+          "voice": "霧裡跟太緊，來不及煞車好危險！再想想看！",
+          "textInImage": true
+        }
+      ]
+    },
+    {
+      "id": "fog-flight",
+      "prompt": "霧好濃喔！飛機不知道會不會飛？",
+      "image": "assets/game1/safety/q2-scene.png",
+      "answerId": "flight-check",
+      "feedback": "😊 答對了！出發前先查詢航班資訊最聰明！ ✨",
+      "voice": "答對了！霧太濃的時候，出發前先查詢航班資訊，才不會白跑一趟！",
+      "textInImage": true,
+      "options": [
+        {
+          "id": "flight-guess",
+          "label": "覺得飛機還是會飛",
+          "image": "assets/game1/safety/q2-opt1.png",
+          "voice": "用眼睛猜可不準喔！想想看怎麼做最聰明？",
+          "textInImage": true
+        },
+        {
+          "id": "flight-check",
+          "label": "出發前先查詢航班資訊",
+          "image": "assets/game1/safety/q2-opt2.png",
+          "textInImage": true
+        },
+        {
+          "id": "flight-yell",
+          "label": "到機場咆哮要登機",
+          "image": "assets/game1/safety/q2-opt3.png",
+          "voice": "對服務人員大吼大叫沒有幫助喔！想想看怎麼做最聰明？",
+          "textInImage": true
+        }
+      ]
+    },
+    {
+      "id": "typhoon",
+      "prompt": "颱風來了！風雨好大淹水了！",
+      "image": "assets/game1/safety/q3-scene.png",
+      "answerId": "typhoon-prep",
+      "feedback": "😊 答對了！提前做好防颱準備最安全！ ✨",
+      "voice": "答對了！颱風來之前先做好防颱準備，颱風天待在家裡最安全！",
+      "textInImage": true,
+      "options": [
+        {
+          "id": "typhoon-prep",
+          "label": "做好防颱準備",
+          "image": "assets/game1/safety/q3-opt1.png",
+          "textInImage": true
+        },
+        {
+          "id": "typhoon-sea",
+          "label": "到海邊看大浪",
+          "image": "assets/game1/safety/q3-opt2.png",
+          "voice": "颱風天的大浪會把人捲走，海邊超級危險！",
+          "textInImage": true
+        },
+        {
+          "id": "typhoon-flood",
+          "label": "到路上玩積水",
+          "image": "assets/game1/safety/q3-opt3.png",
+          "voice": "積水裡看不到的東西很危險，還可能有電線或水溝，快回家吧！",
+          "textInImage": true
+        }
+      ]
+    }
+  ]
+}

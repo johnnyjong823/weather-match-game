@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "gameId": "game1-match-level2",
+  "levelId": 2,
+  "totalLevels": 3,
+  "title": "氣象工具對對碰",
+  "starsPerMatch": 3,
+  "enterVoice": "把左邊的氣象工具，拖到右邊正確的問題卡上吧！",
+  "mismatchVoice": "好像放錯位置了喔，再試試看！",
+  "completeVoice": "太棒了！你收集到十二顆氣象星星，認識了四種氣象工具！",
+  "pairs": [
+    {
+      "id": "thermo",
+      "theme": "amber",
+      "voice": "答對了！溫度計可以告訴我們，今天有幾度！",
+      "a": { "label": "溫度計", "image": "assets/game1/tools/thermo.png" },
+      "b": { "label": "今天有幾度？", "image": "assets/game1/tools/thermo-icon.png" }
+    },
+    {
+      "id": "rain-gauge",
+      "theme": "slate",
+      "voice": "答對了！量雨筒可以量一量，今天下了多少雨！",
+      "a": { "label": "量雨筒", "image": "assets/game1/tools/rain-gauge.png" },
+      "b": { "label": "今天下了多少雨？", "image": "assets/game1/tools/rain-gauge-icon.png" }
+    },
+    {
+      "id": "wind-vane",
+      "theme": "green",
+      "voice": "答對了！空盒氣壓儀會告訴我們，現在的大氣壓力是多少！",
+      "a": { "label": "空盒氣壓儀", "image": "assets/game1/tools/wind-vane.png" },
+      "b": { "label": "大氣壓力是多少呢？", "image": "assets/game1/tools/wind-vane-icon.png" }
+    },
+    {
+      "id": "anemometer",
+      "theme": "purple",
+      "voice": "答對了！風速計可以量一量，風跑得有多快！",
+      "a": { "label": "螺旋槳風向風速儀", "image": "assets/game1/tools/anemometer.png" },
+      "b": { "label": "風有多快？", "image": "assets/game1/tools/anemometer-icon.png" }
+    }
+  ]
+}

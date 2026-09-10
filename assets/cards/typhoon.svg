@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+  <!-- 佔位圖卡：颱風 -->
+  <rect width="1200" height="1200" rx="120" fill="#cfe9e4"/>
+  <g fill="none" stroke="#3fa7bd" stroke-width="70" stroke-linecap="round">
+    <path d="M600 215 A 385 385 0 0 1 985 600"/>
+    <g transform="rotate(120 600 600)"><path d="M600 215 A 385 385 0 0 1 985 600"/></g>
+    <g transform="rotate(240 600 600)"><path d="M600 215 A 385 385 0 0 1 985 600"/></g>
+  </g>
+  <g fill="none" stroke="#7fcadb" stroke-width="44" stroke-linecap="round">
+    <path d="M600 360 A 240 240 0 0 1 840 600"/>
+    <g transform="rotate(120 600 600)"><path d="M600 360 A 240 240 0 0 1 840 600"/></g>
+    <g transform="rotate(240 600 600)"><path d="M600 360 A 240 240 0 0 1 840 600"/></g>
+  </g>
+  <circle cx="600" cy="600" r="135" fill="#ffffff" stroke="#3fa7bd" stroke-width="20"/>
+  <circle cx="555" cy="580" r="22" fill="#2d6b7d"/>
+  <circle cx="645" cy="580" r="22" fill="#2d6b7d"/>
+  <ellipse cx="600" cy="655" rx="26" ry="32" fill="#2d6b7d"/>
+</svg>

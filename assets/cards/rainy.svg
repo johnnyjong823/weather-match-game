@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+  <!-- 佔位圖卡：雨天 -->
+  <rect width="1200" height="1200" rx="120" fill="#cfe2f4"/>
+  <g fill="#f4f9fd">
+    <circle cx="420" cy="470" r="160"/>
+    <circle cx="610" cy="390" r="200"/>
+    <circle cx="800" cy="480" r="150"/>
+    <rect x="330" y="450" width="560" height="180" rx="90"/>
+  </g>
+  <ellipse cx="610" cy="615" rx="290" ry="48" fill="#dcebf7"/>
+  <circle cx="540" cy="495" r="28" fill="#46688c"/>
+  <circle cx="690" cy="495" r="28" fill="#46688c"/>
+  <path d="M560 580 Q615 625 670 580" stroke="#46688c" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <g fill="#4aa3e8">
+    <path transform="translate(420 800)" d="M0,-46 C22,-12 36,14 36,36 A36,36 0 1,1 -36,36 C-36,14 -22,-12 0,-46 Z"/>
+    <path transform="translate(600 900)" d="M0,-46 C22,-12 36,14 36,36 A36,36 0 1,1 -36,36 C-36,14 -22,-12 0,-46 Z"/>
+    <path transform="translate(780 800)" d="M0,-46 C22,-12 36,14 36,36 A36,36 0 1,1 -36,36 C-36,14 -22,-12 0,-46 Z"/>
+    <path transform="translate(330 960) scale(0.7)" d="M0,-46 C22,-12 36,14 36,36 A36,36 0 1,1 -36,36 C-36,14 -22,-12 0,-46 Z"/>
+    <path transform="translate(880 970) scale(0.7)" d="M0,-46 C22,-12 36,14 36,36 A36,36 0 1,1 -36,36 C-36,14 -22,-12 0,-46 Z"/>
+  </g>
+</svg>
