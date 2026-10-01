@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+  <!-- 佔位圖卡：雷雨 -->
+  <rect width="1200" height="1200" rx="120" fill="#b9c8dc"/>
+  <g fill="#67809c">
+    <circle cx="410" cy="440" r="160"/>
+    <circle cx="610" cy="360" r="200"/>
+    <circle cx="810" cy="450" r="150"/>
+    <rect x="320" y="420" width="580" height="180" rx="90"/>
+  </g>
+  <circle cx="535" cy="455" r="30" fill="#ffffff"/>
+  <circle cx="695" cy="455" r="30" fill="#ffffff"/>
+  <circle cx="535" cy="455" r="14" fill="#2d4257"/>
+  <circle cx="695" cy="455" r="14" fill="#2d4257"/>
+  <ellipse cx="615" cy="545" rx="30" ry="38" fill="#2d4257"/>
+  <polygon points="640,640 470,860 580,860 510,1080 760,800 650,800 760,640"
+           fill="#ffd93b" stroke="#f0a800" stroke-width="16" stroke-linejoin="round"/>
+</svg>

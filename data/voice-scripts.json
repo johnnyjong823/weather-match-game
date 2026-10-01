@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "start": "我們來玩氣象對對碰吧！",
+  "praise": ["答對了，你好棒！", "太厲害了！", "哇，好聰明！", "答對囉，繼續加油！"],
+  "idleRemind": "還在嗎？點點看喔！",
+  "result": "你答對了 {n} 題，好厲害！",
+  "resultPerfect": "全部答對了，你是氣象小達人！",
+  "resultZero": "你完成所有題目了，下次再來玩喔！",
+  "listenAgain": "再聽一次喔！",
+  "reveal": "答案是{label}喔，我們看下一題！"
+}

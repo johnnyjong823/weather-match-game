@@ -1,0 +1,10 @@
+{
+  "questionOrder": "fixed",
+  "optionReadAloud": true,
+  "showTimer": true,
+  "retryLimit": null,
+  "idle": { "enabled": false, "remindSec": 30, "resetSec": 60, "resultBackSec": 20 },
+  "tts": { "enabled": true, "lang": "zh-TW", "rate": 0.9, "pitch": 1.1, "voicePrefer": ["Yating", "Zhiwei", "Hanhan"] },
+  "bgm": { "enabled": true, "volume": 0.19, "duckRatio": 0.35 },
+  "recorder": { "endpoint": "http://127.0.0.1:8080/api/sessions", "timeoutMs": 3000 }
+}

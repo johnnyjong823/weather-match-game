@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "gameId": "game2-transport-level3",
+  "levelId": 3,
+  "totalLevels": 3,
+  "title": "幫助交通工具安全出發",
+  "question": "前方出現濃霧，我們該怎麼做？",
+  "bubble": "遇到濃霧要怎麼做才安全呢？",
+  "instruction": "請將正確的做法拖曳到交通工具上，幫助它們安全出發！",
+  "hint": "濃霧會影響能見度，減速並保持警覺，才能確保安全喔！",
+  "enterVoice": "前方出現濃霧，我們該怎麼做？把正確的做法拖到交通工具上，幫助它們安全出發吧！",
+  "mismatchVoice": "再想想看，這個做法適合哪一種交通工具呢？",
+  "completeVoice": "太棒了！你幫助所有交通工具都安全出發，完成了霧裡找金門的全部挑戰，是最厲害的小小氣象觀測員！",
+  "pairs": [
+    {
+      "id": "plane",
+      "theme": "amber",
+      "icon": "tower",
+      "action": "濃霧可能影響飛機起降，要依照氣象與機場資訊行動",
+      "vehicle": { "label": "飛機", "image": "assets/game2/trans/q-plane.png" },
+      "voice": "答對了！濃霧可能影響飛機起降，要依照氣象與機場的資訊行動！"
+    },
+    {
+      "id": "ship",
+      "theme": "purple",
+      "icon": "anchor",
+      "action": "船隻需要特別注意航行安全，要依照港口資訊行動",
+      "vehicle": { "label": "船", "image": "assets/game2/trans/q-ship.png" },
+      "voice": "答對了！起霧的時候，船隻要特別注意航行安全，依照港口的資訊行動！"
+    },
+    {
+      "id": "car",
+      "theme": "green",
+      "icon": "gauge",
+      "action": "減速並注意安全",
+      "vehicle": { "label": "汽車", "image": "assets/game2/trans/q-car.png" },
+      "voice": "答對了！開車遇到濃霧，要減速慢行並注意安全！"
+    }
+  ]
+}

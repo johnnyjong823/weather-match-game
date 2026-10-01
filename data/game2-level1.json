@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "gameId": "game2-fog-level1",
+  "levelId": 1,
+  "totalLevels": 3,
+  "title": "擦開霧氣找地標",
+  "enterVoice": "今天霧好大！用手指擦一擦，把霧氣擦開，找找看這是哪個地標？",
+  "wipeHintVoice": "先用手指把霧氣擦開，看清楚再回答喔！",
+  "unlockVoice": "看到了嗎？找找看，這是哪個地標呢？",
+  "mismatchVoice": "再想想看，仔細看看霧裡的建築！",
+  "completeVoice": "太棒了！你成功擦開濃霧，把金門的地標都找出來了！",
+  "questions": [
+    {
+      "id": "juguang",
+      "prompt": "擦開霧氣，找找看這是哪個地標？",
+      "image": "assets/game2/fog/scene1.jpg",
+      "answerId": "juguang",
+      "feedback": "😊 答對了！這是金門著名地標「莒光樓」！ ✨",
+      "voice": "答對了！這是莒光樓，金門最有名的地標！",
+      "options": [
+        {
+          "id": "juguang",
+          "label": "莒光樓",
+          "image": "assets/game2/fog/opt-juguang.png",
+          "textInImage": true
+        },
+        {
+          "id": "bridge",
+          "label": "金門大橋",
+          "image": "assets/game2/fog/opt-bridge.png",
+          "voice": "這不是金門大橋喔！大橋是跨在海上的，再看看霧裡的建築！",
+          "textInImage": true
+        },
+        {
+          "id": "harbor",
+          "label": "金門港旅運中心",
+          "image": "assets/game2/fog/opt-harbor.png",
+          "voice": "這不是金門港旅運中心喔！再看看霧裡的建築長什麼樣子！",
+          "textInImage": true
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "prompt": "擦開霧氣，找找看這是哪個地標？",
+      "image": "assets/game2/fog/scene2.jpg",
+      "answerId": "bridge",
+      "feedback": "😊 答對了！這是跨在海上的「金門大橋」！ ✨",
+      "voice": "答對了！這是金門大橋，跨在海上、連接大金門和小金門！",
+      "options": [
+        {
+          "id": "bridge",
+          "label": "金門大橋",
+          "image": "assets/game2/fog/opt-bridge.png",
+          "textInImage": true
+        },
+        {
+          "id": "juguang",
+          "label": "莒光樓",
+          "image": "assets/game2/fog/opt-juguang.png",
+          "textInImage": true,
+          "voice": "這不是莒光樓喔！莒光樓是有屋簷的樓房，再看看霧裡的建築！"
+        },
+        {
+          "id": "harbor",
+          "label": "金門港旅運中心",
+          "image": "assets/game2/fog/opt-harbor.png",
+          "textInImage": true,
+          "voice": "這不是金門港旅運中心喔！再看看，霧裡的東西是跨在海上的！"
+        }
+      ]
+    },
+    {
+      "id": "harbor",
+      "prompt": "擦開霧氣，找找看這是哪個地標？",
+      "image": "assets/game2/fog/scene3.jpg",
+      "answerId": "harbor",
+      "feedback": "😊 答對了！這是搭船進出金門的「金門港旅運中心」！ ✨",
+      "voice": "答對了！這是金門港旅運中心，大家搭船進出金門的地方！",
+      "options": [
+        {
+          "id": "harbor",
+          "label": "金門港旅運中心",
+          "image": "assets/game2/fog/opt-harbor.png",
+          "textInImage": true
+        },
+        {
+          "id": "bridge",
+          "label": "金門大橋",
+          "image": "assets/game2/fog/opt-bridge.png",
+          "textInImage": true,
+          "voice": "這不是金門大橋喔！大橋是跨在海上的長長橋樑，再看看霧裡的建築！"
+        },
+        {
+          "id": "juguang",
+          "label": "莒光樓",
+          "image": "assets/game2/fog/opt-juguang.png",
+          "textInImage": true,
+          "voice": "這不是莒光樓喔！莒光樓是有屋簷的樓房，再看看霧裡的建築！"
+        }
+      ]
+    }
+  ]
+}
