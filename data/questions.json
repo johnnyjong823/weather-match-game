@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "gameId": "game1-weather-match",
+  "title": "氣象對對碰",
+  "optionCount": 3,
+  "questions": [
+    {
+      "id": "q1",
+      "answer": { "id": "sunny", "label": "晴天", "image": "assets/cards/sunny.svg" },
+      "distractorPool": ["rainy", "cloudy", "thunder", "typhoon"],
+      "prompt": "看看這是什麼天氣呢？",
+      "hint": { "text": "太陽公公出來了，是哪一個呢？", "voice": "太陽公公出來了，再找找看！" }
+    },
+    {
+      "id": "q2",
+      "answer": { "id": "rainy", "label": "雨天", "image": "assets/cards/rainy.svg" },
+      "distractorPool": ["sunny", "cloudy", "thunder", "typhoon"],
+      "prompt": "看看這是什麼天氣呢？",
+      "hint": { "text": "滴答滴答，要撐傘的天氣喔！", "voice": "滴答滴答，要撐傘的天氣，再找找看！" }
+    },
+    {
+      "id": "q3",
+      "answer": { "id": "cloudy", "label": "陰天", "image": "assets/cards/cloudy.svg" },
+      "distractorPool": ["sunny", "rainy", "thunder", "typhoon"],
+      "prompt": "看看這是什麼天氣呢？",
+      "hint": { "text": "雲朵把太陽遮住了，是哪一個呢？", "voice": "雲朵把太陽遮住了，再找找看！" }
+    },
+    {
+      "id": "q4",
+      "answer": { "id": "thunder", "label": "雷雨", "image": "assets/cards/thunder.svg" },
+      "distractorPool": ["sunny", "rainy", "cloudy", "typhoon"],
+      "prompt": "看看這是什麼天氣呢？",
+      "hint": { "text": "轟隆轟隆，閃電出現了！", "voice": "轟隆轟隆，有閃電的天氣，再找找看！" }
+    },
+    {
+      "id": "q5",
+      "answer": { "id": "typhoon", "label": "颱風", "image": "assets/cards/typhoon.svg" },
+      "distractorPool": ["sunny", "rainy", "cloudy", "thunder"],
+      "prompt": "看看這是什麼天氣呢？",
+      "hint": { "text": "風好大，呼呼地轉圈圈！", "voice": "風好大，呼呼地轉圈圈，再找找看！" }
+    }
+  ],
+  "weatherLabels": {
+    "sunny": "晴天",
+    "rainy": "雨天",
+    "cloudy": "陰天",
+    "thunder": "雷雨",
+    "typhoon": "颱風"
+  }
+}
